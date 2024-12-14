@@ -34,7 +34,7 @@ export default function SignUp() {
           onChange={handleChange}
         />
         <input
-          type="text"
+          type="email"
           placeholder="email"
           className="border p-3 rounded-lg"
           id="email"
@@ -54,7 +54,7 @@ export default function SignUp() {
       </form>
       <div className="flex gap-2 mt-5">
         <p>have an account?</p>
-        <Link to={"/"}>
+        <Link to={"/sign-in"}>
           <span className="text-blue-700">Sign in </span>
         </Link>
       </div>
